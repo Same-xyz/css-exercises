@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*Solution*/
+
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 2em;
+}
+
+.info-sheet{
+  display: flex;
+  gap: 2.5em;
+  justify-content: space-evenly;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
